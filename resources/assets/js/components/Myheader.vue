@@ -2,25 +2,18 @@
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
+    <a class="navbar-item" href="https://localhost">
       <span  width="112" height="28">
         PhoneApp
       </span>
     </a>
 
-    
-    <div class>
-    
-    
+
+    <div class="navbar-menu is-active">
+        <router-link to="/home"  class="navbar-item" >Home</router-link>
+        <router-link to="/about" class="navbar-item">About</router-link>
     </div>
 
-    <a class="navbar-item" href="#">
-        Home
-    </a>
-    
-    <a class="navbar-item" href="#">
-        About
-    </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
